@@ -20,6 +20,11 @@ driver = webdriver.Chrome(executable_path="")
 Where add the location of the chromedriver with in the quotes for say example
 driver = webdriver.Chrome(executable_path="E:/Software/chromedriver.exe")
 
+Also Change Link for every Match :
+
+Copy link from Chrome and paste in between ""
+example : driver.get("https://www.hotstar.com/sports/cricket/vivo-ipl-2019/kolkata-knight-riders-vs-sunrisers-hyderabad-m189953/live-streaming/2001710506?lang=eng")
+
 Note: Add you own path else it will not work.
 
 Now that you are done click on F5 to Run the script.
